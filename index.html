@@ -9,28 +9,47 @@
 body {background-color: lightskyblue;}
 h1   {color: black;}
 p    {color: black;}
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 13px 25px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: darksalmon;
+}
 </style>
 	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About Me</a></li>
-        		<li><a href="/cv">My Work</a></li>
-        		<li><a href="/blog">Random</a></li>
-    		</ul>
-		</nav>
+<nav>
+<ul>
+  <li style="font-size:100%;"><a class="active" href="/index.html">HOME</a></li>
+  <li style="font-size:100%;"><a href="/About.html">ABOUT</a></li>
+  <li style="font-size:100%;"><a href="/Portfolio.html">PORTFOLIO</a></li>
+  <li style="font-size:100%;"><a href="/Random.html">RANDOM</a></li>
+  <li style="float:right;font-size:100%"><a href="/Contact.html">CONTACT</a></li>
+</ul>
+</nav>
+        
 		<div class="container">
     		<div class="blurb">
-        		<h1>The name's Diaz, Jasmin Diaz and welcome to my blog.</h1>
-				<p>I'm best known as  <a href="/about">Read more about my life...</a></p>
+        		<h1>The name's Diaz, Jasmin Diaz.</h1>
+				<p>If you would like to get to know me better, click the tabs above. If not, hippity hoppity get off my property!</p>
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
-		<footer>
-    		<ul>
-			<header><img src="download.jpg" width="350" height="350"></header>
-        		<li><a href="mailto:jasmin.diaz76s@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
+
 	</body>
 </html>
