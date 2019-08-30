@@ -44,7 +44,7 @@ ul.posts li {
 </style>
 </head>
 </body>
-nav>
+<nav>
 
 <ul>
   <li style="font-size:100%;"><a class="active" href="/index.html">HOME</a></li>
@@ -54,3 +54,5 @@ nav>
   <li style="float:right;font-size:100%"><a href="/Contact.html">CONTACT</a></li>
 </ul>
 </nav>
+
+
