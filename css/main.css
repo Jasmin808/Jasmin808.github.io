@@ -1,13 +1,16 @@
+/*This coding changes the margin of the body and the width.*/
 body {
     margin: 60px auto;
     width: 70%;
 }
+/*This coding changes the font of the text on the navigation bar.*/
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
+/*This coding changes the margin of the navigation bar.*/
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
@@ -16,18 +19,22 @@ a {
     text-decoration: none;
     color: #999;
 }
+/*This coding underlines the text on my navigation bar when hovered over it.*/
 a:hover {
     text-decoration: underline;
 }
+/*This coding changes the font size and type of font for heading 1.*/
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+/*This coding changes the font size, height, and color of the text.*/
 p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
 }
+/*This coding changes the font size and the border at the top.*/
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
@@ -44,6 +51,8 @@ ul.posts li {
 </style>
 </head>
 </body>
+
+/*This coding allowed the website to have a navigation bar that makes going to different pages easier.*/
 <nav>
 
 <ul>
@@ -55,6 +64,7 @@ ul.posts li {
 </ul>
 </nav>
 
+/*This coding changed the background color of the website, the color of the text, and the color when hovering over the navigation bar.*/
 <style>
 body {background-color: lightskyblue;}
 h1   {color: black;}
